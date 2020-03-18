@@ -1,0 +1,248 @@
+.titulo-item {
+    margin-top: 70px;
+    padding-top: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    height: 3.7rem;
+    background: #fff;
+    color: #306ba2;
+    text-align: center;
+    font-size: 1.5rem;
+}
+/*Paleta de cores https://coolors.co/222222-ffffff-306ba2-639fab-bbcde5*/
+
+.carousel h3{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.jumbotron {
+    margin-bottom: 0px;
+    min-height: 150px;
+    width: 100%;
+    color: #333;
+    background-color: #fff;
+}
+
+.jumbotron .container{
+    margin-top: 1vh;
+}
+
+.jumbo-title{
+    font-size: 27px;
+    font-weight: bold;
+}
+.jumbo-sub {
+    font-size: 18px;
+}
+
+#jumbo-img-1 {
+    width: 150px;
+    min-width: 110px;
+}
+
+#jumbo-img-2 {
+    width: 200px;
+    min-width: 130px;
+}
+
+@media (max-width: 767px) {
+    /* Bump up size of carousel content */
+    #jumbo-img-1 {
+        height: 0px;
+    }
+
+    #jumbo-img-2 {
+        height: 0px;
+    }
+}
+
+/* navbar */
+
+.navbar {
+    background-color: #306ba2;
+    transition: 1s;
+}
+
+.fixed-top{
+    background-color: #3E4551;
+    transition: 1s;
+}
+
+.sub-navbar{
+    height: 30px;
+    background-color: #3E4551;
+}
+.sub-navbar .nav-link{
+    color: #fff;
+}
+
+/* fim navbar */
+
+/* Carousel base class */
+.carousel {
+  width:100%;
+  overflow: hidden;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+  bottom: 3rem;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 350px;
+  background-color: #777;
+  overflow: hidden;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 350px;
+}
+
+@media (min-width: 3em) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.00rem;
+    line-height: 1.4;
+  }
+}
+
+.regular{
+  margin-top: 20px;
+}
+
+.corpo-index{
+  background-color: #F0F6F7;
+}
+
+/*Fim do Básico - Inicio do Corpo*/
+
+
+/*Footer*/
+footer .page-footer{
+  margin-top: 0px;
+
+}
+
+.footer-texto p{
+  font-size: 12px;
+}
+
+.hoverable:hover{
+  border: 1px solid #333;
+  padding: 5px;
+}
+
+/* -------------- sobre ----------------- */
+
+
+.sobre-navbar {
+  background-color: #222;
+}
+.sobre-navbar li:hover{
+  background-color: #888;
+}
+.sobre-navbar a{
+  color: #eee;
+}
+
+.nav-invisible{
+  visibility: hidden;
+}
+
+@media (width = 480px) {
+/* Bump up size of carousel content */
+    .sobre-navbar li{
+      min-width: 40px;
+    }
+}
+
+#sobre-contprog {
+  text-align: center;
+  background-color: #F0F6F7
+}
+
+.sobre-contprog-img{
+  width: 700px;
+  margin-bottom: 20px;
+}
+
+.title-accordion{
+  background-color: #333;
+  color: #fff;
+  padding: 0.75rem;
+}
+
+#sobre-objetivos {
+  background-color: #bbcde5;
+  text-align: justify;
+}
+
+#sobre-topicos{
+  background: #BBCDE5; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#BBCDE5, #EAF0F7); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#BBCDE5, #EAF0F7); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#BBCDE5, #EAF0F7); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#BBCDE5, #EAF0F7); /* Standard syntax */
+}
+
+#sobre-equipe {
+  color: #eee;
+  background: #306BA2; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#306BA2, #5585B2); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#306BA2, #5585B2); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#306BA2, #5585B2); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#306BA2, #5585B2); /* Standard syntax */
+  text-align: center;
+}
+
+#sobre-equipe h2{
+  margin-bottom: 30px;
+}
+
+#sobre-docentes a:link{
+  color: #225;
+}
+
+/* ------------------- processo seletivo ------------------*/
+
+
+#proc-etapas{
+    color: #fff;
+    background-color: #555;
+    margin-bottom: 0px;
+}
+
+#proc-anexos {
+    background-color: #eee;
+}
+
+#proc-etapas h2{
+    color: #F0F6F7;
+}
+
+#proc-etapas a{
+    color: #639FAB;
+}
+
+/* Bloco de Informação */
+.info{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.info h2{
+    text-align: center;
+    font-weight: bold;
+}
+
+.publ-author {
+    font-size: 13px;
+    color:#979797;
+}
